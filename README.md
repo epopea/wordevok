@@ -2,7 +2,7 @@
 
 This repository contains the <tt>wordevok</tt> <tt>R</tt> package, which transforms evocation data from the *Free Association of Words* survey instrument into relational data for cognitive affinity networks. Two different types of networks are allowed:
 
-* **Network of meanings**  ![\rightarrow](https://render.githubusercontent.com/render/math?math=%5Crightarrow) vertices are words and edges are based on a formula to link words by order of importance and distance, as described in Guedes et al. (2018);
+* **Network of meanings**  ![\rightarrow](https://render.githubusercontent.com/render/math?math=%5Crightarrow) vertices are words and edges are based on a formula to link words by order of importance and distance, as described in Guedes et al. (2018).
 * **Network of individuals** ![\rightarrow](https://render.githubusercontent.com/render/math?math=%5Crightarrow) vertices are individuals and edges are based on a formula to link individuals based on their word vectors, described in Guedes et al. (2018). Two individuals are more cognitive alike the more they share words of same order of importance and distance.
 
 The <tt>wordevok</tt> package contains the following functions:
@@ -26,7 +26,7 @@ The <tt>wordevok</tt> package contains the following functions:
 * <tt>wordevok_meaning_list:</tt>	Creates an edge list by weighted meaning method.
 * <tt>wordevok_quad_class:</tt>	Estimates the relevant coordinates (average evocation order and frequency) for each Vergés quadrant of a given group (or community).
 * <tt>wordevok_radar_attr:</tt>	Estimates the relevant coordinates (average evocation order and frequency) for each Vergés quadrant of multiple groups (or communities).
-* <tt>wordevok_radar_gg:</tt>	Adjusts the coordinates to be ready to use in radar plots using the <tt>ggplot2 R</>> package.
+* <tt>wordevok_radar_gg:</tt>	Adjusts the coordinates to be ready to use in radar plots using the <tt>ggplot2 R</tt>> package.
 * <tt>wordevok_radar_plot:</tt>	Generates radar plots of the collective thinking (social representation) of a group (or community) using the <tt>ggplot2 R</tt>> package. It works for both, network of meanings or network of cognitive affinity. It also accepts multigroup (communities) plotting.
 
 # How to cite
