@@ -27,7 +27,7 @@ The <tt>wordevok</tt> package contains the following functions:
 * <tt>wordevok_quad_class:</tt>	Estimates the relevant coordinates (average evocation order and frequency) for each Vergés quadrant of a given group (or community).
 * <tt>wordevok_radar_attr:</tt>	Estimates the relevant coordinates (average evocation order and frequency) for each Vergés quadrant of multiple groups (or communities).
 * <tt>wordevok_radar_gg:</tt>	Adjusts the coordinates to be ready to use in radar plots using the <tt>ggplot2 R</>> package.
-* <tt>wordevok_radar_plot:</tt>	Generates radar plots of the collective thinking (social representation) of a group (or community) using the <tt>ggplot2 R</>> package. It works for both, network of meanings or network of cognitive affinity. It also accepts multigroup (communities) plotting.
+* <tt>wordevok_radar_plot:</tt>	Generates radar plots of the collective thinking (social representation) of a group (or community) using the <tt>ggplot2 R</tt>> package. It works for both, network of meanings or network of cognitive affinity. It also accepts multigroup (communities) plotting.
 
 # How to cite
 
