@@ -34,11 +34,14 @@ The <tt>wordevok</tt> package contains the following functions:
 Please, when you use the package give the appropriate credit to the package repository at GitHub and the journal article that provides the methodology and formulas.
 
 * **Traditional format**:
-  - For the <tt>wordevok</tt> <tt>R</tt> package:
+
+  - For the <tt>wordevok</tt> <tt>R</tt> package:\
   Pereira, W., Guedes, G., & Duarte, D. (2020). The wordevok R package for cognitive affinity networks. Github respository. Available at: <https://github.com/epopea/wordevok>.
-  - For the formulas and methodology that supports the cognitive affinity network approach:
+  - For the formulas and methodology that supports the cognitive affinity network approach:\
     Guedes, G. R., Coutinho, R. Z., Marteleto, L., Pereira, W. H. S., & Duarte, D. (2018). Signifying Zika: heterogeneity in the representations of the virus by history of infection. Cadernos de saude publica, 34, e00003217.
+    
 * **Bibtex format**:
+
   - For the <tt>wordevok</tt> <tt>R</tt> package:\
   \
   <code>@misc{pereira_guedes_duarte_2020,</code>\
