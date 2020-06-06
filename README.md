@@ -36,8 +36,11 @@ Please, when you use the package give the appropriate credit to the package repo
 * **Traditional format**:
 
   - For the <tt>wordevok</tt> <tt>R</tt> package:\
+  \
   Pereira, W., Guedes, G., & Duarte, D. (2020). The wordevok R package for cognitive affinity networks. Github respository. Available at: <https://github.com/epopea/wordevok>.
+  
   - For the formulas and methodology that supports the cognitive affinity network approach:\
+  \
     Guedes, G. R., Coutinho, R. Z., Marteleto, L., Pereira, W. H. S., & Duarte, D. (2018). Signifying Zika: heterogeneity in the representations of the virus by history of infection. Cadernos de saude publica, 34, e00003217.
     
 * **Bibtex format**:
@@ -51,7 +54,7 @@ Please, when you use the package give the appropriate credit to the package repo
   <code>publisher = {GitHub},</code>\
   <code>journal = {GitHub repository},</code>\
   <code>howpublished = {\url{https://github.com/epopea/wordevok}},</code>\
-  <code>commit = {c2c1258}</code>\
+  <code>commit = {38d4d72}</code>\
   <code>}</code>
   
   - For the formulas and methodology that supports the cognitive affinity network approach:\
