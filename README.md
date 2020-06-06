@@ -1,4 +1,4 @@
-# wordevok
+# The <tt>wordevok</tt> package
 
 This repository contains the <tt>wordevok</tt> <tt>R</tt> package, which transforms evocation data from the *Free Association of Words* survey instrument into relational data for cognitive affinity networks. Two different types of networks are allowed:
 
@@ -20,14 +20,14 @@ The <tt>wordevok</tt> package contains the following functions:
 * <tt>wordevok_binary_adjacency:</tt>	Creates a non-valued (binary) adjacency matrix, where links are defined if the affinity coefficient is not null.
 * <tt>wordevok_comm_submatrix:</tt>	Extracts the adjacency submatrices from the overall adjacency matrix. The extraction is based on an object that identifies groups (or communities).
 * <tt>wordevok_comm_subsets:</tt>	Extracts a list containing the evocations of each groug (or community) of the wordevok object.
-* <tt>wordevok_intersection_adjacency:</tt>	Construction of the adjacency matrix by intersection.
-* <tt>wordevok_laplacian_adjacency:</tt>	Construction of the adjacency matrix by laplacian method.
-* <tt>wordevok_meaning_adjacency:</tt>	Construction of the adjacency matrix by meaning weighted method.
-* <tt>wordevok_meaning_list:</tt>	Construction of the list of edges by meaning weighted method.
-* <tt>wordevok_quad_class:</tt>	Calcula as coordenadas da relevância para os signficados dos quadrantes de uma determinada comunidade.
-* <tt>wordevok_radar_attr:</tt>	Calcula as coordenadas da relevância para os signficados dos quadrantes de multicomunidades.
-* <tt>wordevok_radar_gg:</tt>	Adequa as coordenadas para a utilização dos radares criados usando o 'ggplot2'.
-* <tt>wordevok_radar_plot:</tt>	Gera os gráficos de radar para o pensamento coletivo das comunidades usando 'ggplot2'.
+* <tt>wordevok_intersection_adjacency:</tt>	Creates an adjacency matrix by intersection.
+* <tt>wordevok_laplacian_adjacency:</tt>	Creates an adjacency matrix by the Laplacian method.
+* <tt>wordevok_meaning_adjacency:</tt>	Creates an adjacency matrix by the weighted meaning method.
+* <tt>wordevok_meaning_list:</tt>	Creates an edge list by weighted meaning method.
+* <tt>wordevok_quad_class:</tt>	Estimates the relevant coordinates (average evocation order and frequency) for each Vergés quadrant of a given group (or community).
+* <tt>wordevok_radar_attr:</tt>	Estimates the relevant coordinates (average evocation order and frequency) for each Vergés quadrant of multiple groups (or communities).
+* <tt>wordevok_radar_gg:</tt>	Adjusts the coordinates to be ready to use in radar plots using the <tt>ggplot2 R</>> package.
+* <tt>wordevok_radar_plot:</tt>	Generates radar plots of the collective thinking (social representation) of a group (or community) using the <tt>ggplot2 R</>> package. It works for both, network of meanings or network of cognitive affinity. It also accepts multigroup (communities) plotting.
 
 # How to cite
 
@@ -40,6 +40,7 @@ Please, when you use the package give the appropriate credit to the package repo
     Guedes, G. R., Coutinho, R. Z., Marteleto, L., Pereira, W. H. S., & Duarte, D. (2018). Signifying Zika: heterogeneity in the representations of the virus by history of infection. Cadernos de saude publica, 34, e00003217.
 * **Bibtex format**:
   - For the <tt>wordevok</tt> <tt>R</tt> package:\
+  \
   <code>@misc{pereira_guedes_duarte_2020,</code>\
   <code>author = {Pereira, Wesley and Guedes, Gilvan Ramalho and Duarte, Denise},</code>\
   <code>title = {The wordevok R package for cognitive affinity networks},</code>\
@@ -49,7 +50,9 @@ Please, when you use the package give the appropriate credit to the package repo
   <code>howpublished = {\url{https://github.com/epopea/wordevok}},</code>\
   <code>commit = {4f57d6a0e4c030202a07a60bc1bb1ed1544bf679}</code>\
   <code>}</code>
+  
   - For the formulas and methodology that supports the cognitive affinity network approach:\
+  \
   <code>@article{guedes2018signifying,</code>\
   <code>title={Signifying Zika: heterogeneity in the representations of the virus by history of infection},</code>\
   <code>author={Guedes, Gilvan Ramalho and Coutinho, Raquel Zanatta and Marteleto, Leticia and Pereira, Wesley Henrique Silva and Duarte, Denise},</code>\
