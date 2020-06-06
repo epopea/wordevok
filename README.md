@@ -48,7 +48,7 @@ Please, when you use the package give the appropriate credit to the package repo
   <code>publisher = {GitHub},</code>\
   <code>journal = {GitHub repository},</code>\
   <code>howpublished = {\url{https://github.com/epopea/wordevok}},</code>\
-  <code>commit = {4f57d6a0e4c030202a07a60bc1bb1ed1544bf679}</code>\
+  <code>commit = {c2c1258}</code>\
   <code>}</code>
   
   - For the formulas and methodology that supports the cognitive affinity network approach:\
