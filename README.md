@@ -68,3 +68,6 @@ Please, when you use the package give the appropriate credit to the package repo
   <code>year={2018},</code>\
   <code>publisher={SciELO Public Health}</code>\
   <code>}</code>
+ 
+* **Funding**:
+The wordevok package was made possible by the financial support provided by FAPEMIG through the Grant APQ-01553-16. [PT] O desenvolvimento do pacote wordevok foi possível em função do suporte financeiro provido pela FAPEMIG (Processo APQ-01553-16).
